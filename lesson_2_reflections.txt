@@ -5,12 +5,19 @@ git status will tell you no commits with the files you can add to repo
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
+staging area allows you to put 1 or multiple files ready for a commit to the repo
+working directory is your local set of files on which you are working
+
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+by adding 1 or more files that relate to a logical change in the staging area before commiting.
+
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+* for adding experimental or big changes to your code base that you want to test
+while keeping your master intact
 
 How do the diagrams help you visualize the branch structure?
 
