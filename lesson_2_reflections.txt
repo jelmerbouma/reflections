@@ -25,6 +25,13 @@ How do the diagrams help you visualize the branch structure?
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+* new lines of code added if both new, lines that are deleted in both deleted.
+* new commit is created with new master branch if you merge to master.
+* old branch can then be deleted, those commits can then no longer be reached, 
+but they will have been merged with the master.
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+all the obvious stuff (additions/deletions in 1 file not in the other) is merged.
+saves you from doing all the grunt work.
+Con: you don't always know exactly what changes you are committing to your branch
