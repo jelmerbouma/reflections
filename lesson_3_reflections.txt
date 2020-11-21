@@ -18,8 +18,7 @@ branch - creates new brnanch on a repo - adding feature to repo that you want to
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
-
+    you can undo your changes, roll back to previous known state. you can also commit from that stage onwards so git knows which changes to merge.
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
