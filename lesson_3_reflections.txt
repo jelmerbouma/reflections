@@ -12,17 +12,19 @@ Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
 fork - creates clone of a repo from git repo to git repo instead of to local working directory - give credit to original repo, continue yourself with your own version
-clone - clones a repo to your local machine to work on the code locally
-branch - creates new brnanch on a repo - adding feature to repo that you want to group and test separately first before committing to master
+clone - clones a repo to your local machine to work on the code locally including all commit history.
+branch - creates new branch on a repo - adding feature to repo that you want to group and test separately first before committing to master
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
     you can undo your changes, roll back to previous known state. you can also commit from that stage onwards so git knows which changes to merge.
+
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+harder: keeping track of changes made by other person. keeping back-ups of your files, bug fixing.
+easier: no tooling overhead??
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
