@@ -29,4 +29,5 @@ easier: no tooling overhead??
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+experimental / stuff that is likely to break / if you have lots of people working on 1 master
+without branching it is much simpler, until someone breaks master.
